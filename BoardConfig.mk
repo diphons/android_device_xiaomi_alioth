@@ -20,9 +20,6 @@ TARGET_SCREEN_DENSITY := 440
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/xiaomi/alioth.config
 
-# OTA assert
-TARGET_OTA_ASSERT_DEVICE := alioth,aliothin
-
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
