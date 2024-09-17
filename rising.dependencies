@@ -1,0 +1,32 @@
+[
+  {
+    "remote"      : "github",
+    "repository"  : "diphons/android_device_xiaomi_sm8250-common",
+    "target_path" : "device/xiaomi/sm8250-common",
+    "branch"      : "rising"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "diphons/android_vendor_xiaomi_alioth",
+    "target_path" : "vendor/xiaomi/alioth",
+    "branch"      : "14"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "diphons/android_vendor_xiaomi_sm8250-common",
+    "target_path" : "vendor/xiaomi/sm8250-common",
+    "branch"      : "14"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "diphons/kernel_xiaomi_sm8250",
+    "target_path" : "kernel/xiaomi/sm8250",
+    "branch"      : "perf"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "LineageOS/android_hardware_xiaomi",
+    "branch"      : "lineage-21",
+    "target_path" : "hardware/xiaomi"
+  }
+]

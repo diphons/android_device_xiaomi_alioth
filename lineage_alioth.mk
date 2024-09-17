@@ -11,6 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Rising Stuff
+RISING_MAINTAINER=de8ug
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+WITH_GMS := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_MAINTAINER="D8G Official"
+
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
