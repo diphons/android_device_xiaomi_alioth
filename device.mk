@@ -26,6 +26,12 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/camera/camera_cnf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_cnf.txt
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.product.mod_device=$(LINEAGE_BUILD)
+
+# Inherit Camera from vendor blobs
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)
+
 PRODUCT_PACKAGES += \
     libpiex_shim
 
